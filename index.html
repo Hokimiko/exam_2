@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul_1</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <i class="nav__logo"><img class="logo_img" src="./img/logo.svg" alt=""></i>
+          <div class="nav__burger-menu">
+              <input class="burger-menu__toggle" id="menu-toggle" type="checkbox" />
+              <label class="burger-menu__btn" for="menu-toggle">
+                <span></span>
+              </label>
+              <ul class="burger-menu__box">
+                <li class="burger-menu__item">
+                  <a class="burger-menu__link" href="#">Напрямки</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a class="burger-menu__link" href="#">Про компанiю</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a class="burger-menu__link" href="#">Переваги</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a class="burger-menu__link" href="#">Етапи роботи</a>
+                </li>
+                <div class="burger-menu__navigation">
+                  <span class="burger-menu__box__social">
+                    <i class="burger-menu__box__icon"><span class="icon-instagram"></span></i>
+                    <i class="burger-menu__box__icon"><span class="icon-facebook"></span></i>
+                  </span>
+                  <span class="burger-menu__box__contacts">
+                    <span class="icon-mobile"></span>
+                    <p class="burger-menu__box__number">+380 67661 5415</p>
+                  </span>
+                </div>
+              </ul>
+          </div>        
+          <span class="nav__social">
+              <i class="nav__icon"><span class="icon-instagram"></span></i>
+              <i class="nav__icon"><span class="icon-facebook"></span></i>
+          </span>
+          <span class="nav__contacts">
+            <span class="icon-mobile"></span>
+            <p class="nav__number">+380 67661 5415</p>
+          </span>
+      </nav>  
+      <section class="header__section">
+          <div class="header__section__content">
+              <h1 class="header__section__title">ВИРОБНИЦТВО <br> МЕБЕЛIВ</h1>
+              <p class="header__section__text">Ми виконуємо комплексне виготовлення корпусних меблів <br> для житлових і комерційних приміщень, забезпечимо Вас <br> якісним меблевим продуктом власного виробництва. </p>
+              <button class="header__section__btn">Обговорити проект</button>
+          </div>
+          <div class="header__line"><span></span></div>
+          <div class="header__section__carousel">
+            <div class="header__carousel_arrows">
+              <i class="header__arrow"><img class="arrow" src="./icons/arrow_l.png" alt=""></i>
+              <i class="header__arrow"><img class="arrow" src="./icons/arrow_r.png" alt=""></i>
+            </div>
+            <div class="header__carousel_pages">
+              <div class="header__page">1</div>
+              <div class="header__page">2</div>
+              <div class="header__page">3</div>
+          </div>
+          </div>
+      </section>
+    </header>
+    <main>
+
+      <section class="main__section__fst">
+        <h1 class="section__fst_title">Основні напрямки</h1>
+        <div class="section__fst_grid">
+          <div class="fst_grid_block" id="1"></div>
+
+          <div class="fst_grid_block" id="2">
+            <h5 class="fst_grid_block_num">01</h5>
+            <h5 class="fst_grid_block_title">Дизайн інтерєру</h5>
+            <img class="fst_grid_block_img img-fluid" src="./img/Rectangle 3.png" alt="">
+          </div>
+
+          <div class="fst_grid_block" id="3"></div>
+
+          <div class="fst_grid_block" id="4">
+            <h5 class="fst_grid_block_num">02</h5>
+            <h5 class="fst_grid_block_title">Виробництво меблів</h5>
+            <img class="fst_grid_block_img img-fluid" src="./img/Rectangle 2.png" alt="">
+          </div>
+
+          <div class="fst_grid_block" id="5"></div>
+
+          <div class="fst_grid_block" id="6">
+            <h5 class="fst_grid_block_num">03</h5>
+            <h5 class="fst_grid_block_title">Комплексне меблювання</h5>
+            <img class="fst_grid_block_img img-fluid" src="./img/Rectangle 4.png" alt="">
+          </div>
+
+          <div class="fst_grid_block" id="7"></div>
+        </div>
+      </section>
+      <section class="main__section__scnd">
+        <h1 class="section__scnd_title">Ми забезпечемо вас </h1>
+        <div class="main__section__scnd_grid">
+          <div class="scnd_grid_block" id="1">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/cupboard.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Меблями</p>
+          </div>
+          <div class="scnd_grid_block" id="2">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/lamp.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Освітленням</p>
+          </div>
+          <div class="scnd_grid_block" id="3">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/burner-oven.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Побутовою технікою</p>
+          </div>
+          <div class="scnd_grid_block" id="4">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/door.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Дверима</p>
+          </div>
+          <div class="scnd_grid_block" id="5">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/floor.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Стіновими панелями та <br> підлоговим покриттям</p>
+          </div>
+          <div class="scnd_grid_block" id="6">
+            <i class="scnd_grid_icon"> <img class="furniture_icon" src="./icons/brainstorm.png" alt=""> </i>
+            <p class="scnd_grid_block_text">Проектуванням</p>
+          </div>
+        </div>
+      </section>
+      <section class="main__section__thrd">
+        <div class="section__thrd_pic_l img-fluid"><img class="section__thrd_img" src="./img/Rectangle 14.png" alt=""></div>
+        <div class="section__thrd_content">
+          <h1 class="section__thrd_title">Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. </h1>
+
+          <div class="section__thrd_inf">
+
+            <div class="thrd_inf_card">
+              <input class="inf_card_inp" type="radio" name="text">
+              <p class="inf_card_text">Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі</p>
+            </div>
+
+            <div class="thrd_inf_card">
+              <input class="inf_card_inp" type="radio" name="text">
+              <p class="inf_card_text">Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник власника бізнесу, квартири чи салону</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="section__thrd_pic_r img-fluid"><img class="section__thrd_img" src="./img/Rectangle 15.png" alt=""></div>
+      </section>
+      <section class="main__section__fth">
+        <h1 class="section__fth_title">Наші переваги</h1>
+        <div class="section__fth_grid">
+          <div class="fth_grid_block" id="1">
+            <p class="fth_grid_block_num">01</p>
+          </div>
+
+          <div class="fth_grid_block" id="2">
+            <h4 class="fth_grid_block_title">Мобільність</h4>
+            <p class="fth_grid_block_text">Проводимо зустрічі на об`єктах в затишних закладах Києва</p>
+          </div>
+
+          <div class="fth_grid_block" id="3">
+            <p class="fth_grid_block_num">02</p>
+          </div>
+
+          <div class="fth_grid_block" id="4">
+            <h4 class="fth_grid_block_title">Надійність</h4>
+            <p class="fth_grid_block_text">Система нашої роботи зосереджена на якості та термінах завершення проекту</p>
+          </div>
+
+          <div class="fth_grid_block" id="5">
+            <p class="fth_grid_block_num">03</p>
+          </div>
+
+          <div class="fth_grid_block" id="6">
+            <h4 class="fth_grid_block_title">Якість</h4>
+            <p class="fth_grid_block_text">Виготовляємо виключно з перевірених європейських брендів</p>
+          </div>
+
+          <div class="fth_grid_block" id="7">
+            <p class="fth_grid_block_num">04</p>
+          </div>
+
+          <div class="fth_grid_block" id="8">
+            <h4 class="fth_grid_block_title">Професіоналізм</h4>
+            <p class="fth_grid_block_text">Наша команда - це клуб професіоналів, об`єднаних в одній компанії</p>
+          </div>
+
+          <div class="fth_grid_block" id="9">
+            <p class="fth_grid_block_num">05</p>
+          </div>
+
+          <div class="fth_grid_block" id="10">
+            <h4 class="fth_grid_block_title">Вигідність </h4>
+            <p class="fth_grid_block_text">Ми відмовились від шоу-руму та офісу на користь вартості та мобільності</p>
+          </div>
+        </div>
+      </section>
+      <section class="main__section__fifth">
+        <div class="section__fifth_form">
+          <div class="fifth_form_container">
+            
+            <div class="fifth_form_contents">
+              <h2 class="fifth_form_title">Обговоримо <br> ваш проект?</h2>
+              <p class="fifth_form_text">Заповніть форму і найближчим часом <br> ми зв'яжемося з вами!</p>
+            </div>
+
+            <div class="fifth_form_inputs">
+              <input class="fifth_form_inp" type="text" placeholder="Ім'я">
+              <input class="fifth_form_inp" type="text" placeholder="Номер телефону">
+              <span class="fifth_form_file_link"><span class="icon-file-text"></span><p class="file_link_text">Прикріпити проект</p></span>
+            </div>
+
+            <div class="fifth_form_action">
+              <button class="fifth_form_btn">Відправити</button>
+              <!-- <span class="fifth_form_agree"><input type="radio"><p class="form_agree_text">Даю згоду на оброблення персональних даних</p></span> -->
+              <label class="fifth_form_agree" for="">
+                <input type="checkbox" class="form_agree_checkbox" name="" id="">
+                <span class="form_agree_fake"></span>
+                <span class="form_agree_text">Даю згоду на оброблення персональних даних</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+       <div class="section__fifth_bg"><img class="fifth_bg_img" src="./img/Rectangle 6.png" alt=""></div> 
+      </section>
+      <section class="main__section__sixth">
+        <h1 class="section__sixth_title">Етапи роботи</h1>
+        <div class="section__sixth_grid">
+          <div class="sixth_grid_block" id="1">
+            <div class="sixth_num_block">
+              <p class="num_block_item">01</p>
+            </div>
+            <h5 class="sixth_block_title">Підписання договору</h5>
+            <p class="sixth_block_text">Визначаємось з бюджетом, <br> матеріалами та фурнітурою. <br>
+              Вносимо правки в проект, <br>
+              підписуємо пакет документів.</p>
+          </div>
+
+          <div class="sixth_grid_block" id="2">
+            <div class="sixth_num_block">
+              <p class="num_block_item">02</p>
+            </div>
+            <h5 class="sixth_block_title">Виготовлення</h5>
+            <p class="sixth_block_text">Після підписання договору та <br> визначення термінів, команда <br> Рінго приступає до <br>
+              найцікавішого - виробництва!</p>
+          </div>
+
+          <div class="sixth_grid_block" id="3">
+            <div class="sixth_num_block">
+              <p class="num_block_item">03</p>
+            </div>
+            <h5 class="sixth_block_title">Встановлення</h5>
+            <p class="sixth_block_text">По готовності виробництва <br> починаємо монтаж на обєкті. <br> У домовлений час виконуємо <br> доставку та монтаж.</p>
+          </div>
+
+          <div class="sixth_grid_block" id="4">
+            <div class="sixth_num_block">
+              <p class="num_block_item">04</p>
+            </div>
+            <h5 class="sixth_block_title">Новосілля</h5>
+            <p class="sixth_block_text">По закінченню робимо <br> перевірку та підписуємо акт <br> закінчення робівт. </p>
+          </div>
+        </div>
+        <span></span>
+      </section>
+      <section class="main__section__seventh">
+        <h1 class="section__seventh_title">Зараз в роботі</h1>
+        <div #swiperRef="" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="carousel_img" src="./img/carousel_1.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="carousel_img" src="./img/carousel_2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="carousel_img" src="./img/carousel_3.jpg" alt=""></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    
+  
+      </section>
+      <section class="main__section__eighth">
+        <div class="section__eighth_gift">
+          <img class="gift_img" src="./img/image 15.png" alt="">
+          <span class="gift_span"><img src="./icons/gift.svg" alt=""><p class="gift_text">Подарунок</p></span>
+        </div>
+
+        <div class="section__eighth_content">
+          <h1 class="eighth_content_title">Рінго роздає <br> подарунки!</h1>
+          <p class="eighth_content_text">При замовленні до нового року, отримай <br> цінний подарунок для свого комфорту</p>
+          <button class="eighth_content_btn">Хочу подарунок</button>
+        </div>
+
+        <div class="section__eighth_gift">
+          <img class="gift_img" src="./img/image 16.png" alt="">
+          <span class="gift_span"><img src="./icons/gift.svg" alt=""><p class="gift_text">Подарунок</p></span>
+        </div>
+      </section>
+      <section class="main__section__nineth">
+        <h1 class="section__nineth_title">Наші партнери</h1>
+        <div #swiperRef="" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="partners_img" src="./img/franke.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/hafele.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/egger.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/linken.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/inoxa.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/sorbes.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/cleaf.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/samsung.png" alt=""></div>
+            <div class="swiper-slide"><img class="partners_img" src="./img/blum.png" alt=""></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <section class="main__section__tenth">
+        <div class="section__fifth_form">
+          <div class="fifth_form_container">
+            
+            <div class="fifth_form_contents">
+              <h2 class="fifth_form_title">Залишилися <br> питання?</h2>
+              <p class="fifth_form_text">Отримай безкоштовну консультацію <br> менеджера та прорахунок проекту </p>
+            </div>
+
+            <div class="fifth_form_inputs">
+              <input class="fifth_form_inp" type="text" placeholder="Ім'я">
+              <input class="fifth_form_inp" type="text" placeholder="Номер телефону">
+              <span class="fifth_form_file_link"><span class="icon-file-text"></span><p class="file_link_text">Прикріпити проект</p></span>
+            </div>
+
+            <div class="fifth_form_action">
+              <button class="fifth_form_btn">Відправити</button>
+              <!-- <span class="fifth_form_agree"><input type="radio"><p class="form_agree_text">Даю згоду на оброблення персональних даних</p></span> -->
+              <label class="fifth_form_agree" for="">
+                <input type="checkbox" class="form_agree_checkbox" name="" id="">
+                <span class="form_agree_fake"></span>
+                <span class="form_agree_text">Даю згоду на оброблення персональних даних</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+       <div class="section__fifth_bg"><img class="fifth_bg_img" src="./img/Rectangle 7.png" alt=""></div> 
+
+      </section>
+    </main>
+    <footer>
+      <section class="main__section__eleventh">
+        <div class="section__eleventh_logo_block">
+          <img class="logo_img" src="./img/logo.svg" alt="">
+          <span class="logo_block_span">
+            <p class="logo_block_text">Соцмережі: </p>
+            <i class="eleventh_block_icon"><span class="icon-instagram"></span></i>
+            <i class="eleventh_block_icon"><span class="icon-facebook"></span></i>
+          </span>
+        </div>
+
+        <div class="section__eleventh_links_block">
+          <div class="links_block">
+            <a class="links_block_item" href="#">Основні напрямки</a>
+            <a class="links_block_item" href="#">Про компанію</a>
+            <a class="links_block_item" href="#">Переваги</a>
+          </div>
+          <div class="links_block2">
+            <a class="links_block_item" href="#">Етапи роботи</a>
+            <a class="links_block_item" href="#">Зараз в роботі</a>
+            <a class="links_block_item" href="#">Стати партнером</a>
+          </div>
+        </div>
+
+        <div class="section__eleventh_contacts_block">
+          <span class="eleventh_block_contacts">
+            <span class="icon-mobile"></span>
+            <p class="eleventh_block_number">+380 67661 5415</p>
+          </span>
+          <button class="section__eleventh_btn">На каву з менеджером!</button>
+        </div>
+      </section>
+      <hr>
+      <section class="main__section__twelveth">
+        <div class="section__twelveth_container">
+          <h1 class="twelveth_container_title">Бренди комплектуючих</h1>
+          <div class="brands_container">
+            <div class="brands_container_block"><img class="brands_img" src="./img/franke.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/hafele.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/egger.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/linken.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/inoxa.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/sorbes.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/cleaf.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/samsung.png" alt=""></div>
+            <div class="brands_container_block"><img class="brands_img" src="./img/blum.png" alt=""></div>
+          </div>
+          <hr>
+          <span class="footer__span">
+            <p class="footer__span_text">© 2021 Ringo</p>
+            <p class="footer__span_text">Дизайн сайту</p>
+          </span>
+        </div>
+      </section>
+    </footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+      <script src="./node_modules/swiper/swiper-bundle.js"></script>
+      <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+    <!-- <div class="section__seventh_wrapper">
+      <div class="arrow_block"><i class="wrapper_arrow_l"><img src="./icons/carousel_arrow_l.png" alt=""></i></div>
+      <div class="wrapper_carousel">
+        <img src="./img/carousel_1.png" alt="">
+        <img src="./img/carousel_2.png" alt="">
+        <img src="./img/carousel_3.png" alt="">
+      </div>
+      <div class="arrow_block"><i class="wrapper_arrow_r"><img src="./icons/carousel_arrow_r.png" alt=""></i></div>
+    </div> -->
